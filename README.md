@@ -13,3 +13,6 @@ HTML CSS Javascript Ajax Third-party API - https://openweathermap.org/terms
 # Github 
 
 https://github.com/solka2019/Weather-Dashboard
+
+https://solka2019.github.io/Weather-Dashboard/
+
