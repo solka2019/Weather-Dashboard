@@ -1,7 +1,3 @@
-/* html {
-    margin: 0px;
-}*/
-
 body {
     font-family: 'Sriracha', cursive;
 } 
@@ -10,23 +6,14 @@ h1 {
     font-size: 40px;
     text-align: center;
     color: white;
-    /* font-family: font-family: 'Sriracha', cursive; */
     font-family: 'Sriracha', cursive; 
-     /* font-family:'Modak', cursive;  */
     
 }
 header {
     background-color: steelblue;
     border: solid 2px gray;
-} */ 
+}  
 
-
-/* header {
-    color: whitesmoke;
-    background-color: rgb(32, 124, 245);
-    text-align: center;
-    padding: 0.25rem 0;
-} */
 
 .left-pane {
     background-color: whitesmoke;
@@ -39,7 +26,7 @@ header {
 }
 
 .card-small {
-    background-color: rgb(32, 124, 245);
+    background-color: steelblue;
     color: whitesmoke;
     margin: 0;
     margin-bottom: 2rem;
@@ -50,7 +37,7 @@ header {
 
 .card-small img {
     object-fit: cover;
-} */
+} 
 
 .list-group-item.city {
     width: 100%;
@@ -59,14 +46,9 @@ header {
     align-items: center;
     margin: auto;
     padding: 0.75rem;
+    background-color: steelblue;
 } 
 
-/* .city.active {
-    background-color: white;
-    opacity: 0.9;
-    color: rgb(32, 124, 245);
-    font-weight: bold;
-} */
 .btn-primary {
     background-color: steelblue;
 
@@ -85,17 +67,14 @@ header {
     transition: all .3s ease-in-out;
 }
 
-/* Current Day Data Table */
 .table {
     margin-top: 1rem;
 }
 
-/* SEARCH */
 #searchLabel {
     font-weight: bold;
 }
 
-/* CITY LIST */
 #city-list {
     list-style-type: none;
     display: flex;
@@ -104,7 +83,6 @@ header {
     padding: 0;
 }
 
-/* Today Headline bar */
 #today {
     display: flex;
     justify-content: flex-start;
@@ -117,14 +95,13 @@ header {
     width: 100%;
 }
 
-/* Current Day Condition Description */
 p#description {
     padding: 1rem;
     padding-left: 1.25rem;
 }
 
 #uv-index {
-    color: white;
+    color: black;
     padding: 0.25rem 0.5rem;
     border-radius: 10px;
 }
