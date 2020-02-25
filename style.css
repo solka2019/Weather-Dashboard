@@ -1,0 +1,198 @@
+/* html {
+    margin: 0px;
+}*/
+
+body {
+    font-family: 'Sriracha', cursive;
+} 
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    /* font-family: font-family: 'Sriracha', cursive; */
+    font-family: 'Sriracha', cursive; 
+     /* font-family:'Modak', cursive;  */
+    
+}
+header {
+    background-color: steelblue;
+    border: solid 2px gray;
+} */ 
+
+
+/* header {
+    color: whitesmoke;
+    background-color: rgb(32, 124, 245);
+    text-align: center;
+    padding: 0.25rem 0;
+} */
+
+.left-pane {
+    background-color: whitesmoke;
+}
+
+.five-day {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.card-small {
+    background-color: rgb(32, 124, 245);
+    color: whitesmoke;
+    margin: 0;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    width: 160px;
+    padding: 0.5rem;
+}
+
+.card-small img {
+    object-fit: cover;
+} */
+
+.list-group-item.city {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0.75rem;
+} 
+
+/* .city.active {
+    background-color: white;
+    opacity: 0.9;
+    color: rgb(32, 124, 245);
+    font-weight: bold;
+} */
+.btn-primary {
+    background-color: steelblue;
+
+}
+.btn-delete {
+    float: right;
+    background-color: transparent;
+    color: black;
+    opacity: 0.2;
+    font-size: 15px;
+}
+
+.btn-delete:hover {
+    border: 1px dotted black;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+/* Current Day Data Table */
+.table {
+    margin-top: 1rem;
+}
+
+/* SEARCH */
+#searchLabel {
+    font-weight: bold;
+}
+
+/* CITY LIST */
+#city-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+/* Today Headline bar */
+#today {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#time-hour {
+    background-color: lightgray;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+/* Current Day Condition Description */
+p#description {
+    padding: 1rem;
+    padding-left: 1.25rem;
+}
+
+#uv-index {
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px;
+}
+
+#conditions-image {
+    width: 8rem;
+    object-fit: cover;
+    margin-top: -1.5rem;
+    margin-bottom: -0.5rem;
+    margin-right: -1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+
+    .left-pane,
+    .right-pane,
+    .card-big,
+    .card-small,
+    .row {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: whitesmoke;
+    }
+
+    .city-list {
+        margin: 0;
+        padding: 0;
+    }
+
+    .right-pane {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .card-big {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .five-day {
+        flex-direction: column;
+    }
+
+    .card-small {
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    .card-small img {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 10rem;
+    }
+
+    #description {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    #uv-index {
+        padding: 0.1rem 0.5rem;
+    }
+
+}
